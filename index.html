@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+	<title>Tic-tac</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+	<!--JS-->
+	<script src="JS/tree.js"></script>
+	<script src="JS/bot.js"></script>
+	<script src="JS/scr.js"></script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="CSS/style.css" />
+
+</head>
+
+<body class="userSelectNone">
+	<div class="ownNav"> 
+		<img src="img/name.png" alt="Logo" id="ticTacToeImg">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 centerDiv" style="padding: 15px;">
+				<div id="boardContainer"></div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row" style="height: 100%;">
+					<div class="col-6 centerDiv" style="min-height: 200px;">
+						<span id="symbolP1" class="menu__figure figure figure-X">×</span>
+						<!-- <span id="symbolP2">o</span> -->
+						<select id="depth" class="form-control">
+							<option value="1">Beginner (1)</option>
+							<option value="2">Easy (2)</option>
+							<option selected value="3">Normal (3)</option>
+							<option value="4">Average (4)</option>
+							<option value="5">Difficult (5)</option>
+							<option value="6">Master (6)</option>
+							<option value="7">Very Hard (7)</option>
+							<option value="8">Challenging(8)</option>
+							<option value="9">Impossible (9)</option>
+						</select>
+						<span id="scores"></span>
+					</div>
+					<div class="col-6 centerDiv">
+						<input type="button" class="btn" id="gameBtn" value="New Game!" >
+						<input type="button" class="btn btn-outline-info" id="showTreeBtn" value="Show State Tree">
+						<span id="status"></span>	
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div id="treeBody" class="displayNone"></div>
+		</div>
+	</div>
+
+</body>
+
+</html>
