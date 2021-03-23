@@ -12,6 +12,6 @@ After downloading the project run the* index.html* file in your browser to launc
 ### Game Interface
 The interface of the game is shown in the pictures below. The search tree of the computer opponent can be expanded by the user anytime during the game.
 
-![gamePicture](img/main.jpg)
-![gamePicture](img/searchTree.jpg)
-![gamePicture](img/searchTreeExpanding.jpg)
+![gamePicture](img/interface/main.jpg)
+![gamePicture](img/interface/searchTree.jpg)
+![gamePicture](img/interface/searchTreeExpanding.jpg)
