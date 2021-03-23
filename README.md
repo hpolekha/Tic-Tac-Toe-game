@@ -7,7 +7,7 @@ The *minimax* algorithm with *alpha-beta pruning* is used to create the computer
 The aim of this project was to create an environment to study the behaviour of the computer opponent using the algorithm mentioned above by observing its search tree during the game.
 
 ### How to Launch
-After downloading the project run the* index.html* file in your browser to launch the game.
+After downloading the project run the *index.html* file in your browser to launch the game.
 
 ### Game Interface
 The interface of the game is shown in the pictures below. The search tree of the computer opponent can be expanded by the user anytime during the game.
